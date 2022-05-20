@@ -1,4 +1,4 @@
-# Median-of-Means-Estimator-
+# Median of Means Estimator
 
 ![buynomics-logo](https://user-images.githubusercontent.com/96091453/169597145-2a7c9d7c-0fa6-4b7d-969c-e39dc7467f7c.png)
 
