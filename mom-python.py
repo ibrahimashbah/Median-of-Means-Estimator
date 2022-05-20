@@ -1,34 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ![59171ad2-acab-4cc5-99df-ea90de15c636.png](attachment:59171ad2-acab-4cc5-99df-ea90de15c636.png)
-
-# ### Task: estimate the average price per product using the Median_of_Means estimator (MoM)
-# 
-
-# ### Importing Necessary Libarires 
-# 
-
-# In[ ]:
-
 
 import numpy as np
 import pandas as pd
 from time import time
 
 
-# ### Loading Dataset
-
-# In[ ]:
-
-
+# Loading Dataset
 df = pd.read_csv('question-custom-takehome-project-zpnxbh3x9d-sales.csv')
 
 
-# ### Computing Median of Means 
-
-# In[ ]:
-
+# Computing Median of Means 
 
 start_time = time()  # start time of execution
 
@@ -79,13 +62,9 @@ print ('The computation took %s seconds' % t1)
 ## The computation took 0.026923656463623047 seconds ##
 
 
-# ### Execution time
+## Execution time ##
 
-# #### Over Size
-
-# In[ ]:
-
-
+# Over Size
 start_time2 = time()
 
 first_population = np.random.standard_t(df=1, size=1000000)
@@ -98,10 +77,7 @@ print ('The computation took %s seconds' % t2)
 ## The computation took 0.45382094383239746 seconds ##
 
 
-# #### Over Size and values 
-
-# In[ ]:
-
+# Over Size and values 
 
 start_time3 = time()
 
