@@ -5,7 +5,7 @@
   <img width="460" height="300" src="https://user-images.githubusercontent.com/96091453/169597145-2a7c9d7c-0fa6-4b7d-969c-e39dc7467f7c.png">
 </p>
 
-Take home project from buynomics, the task is to estimate the average price per product in the given dataset using the Median of Means estimator (MoM). 
+Take home project from buynomics, the task is to estimate the average price per product in the given dataset using the Median of Means estimator (MoM).
 
 ---------------
 Why do we need the median of means estimator? 
@@ -40,6 +40,6 @@ Using NumPy we manage to create high-performance function using the MoM estimato
 ## How about bigger dataset with bigger values? ##
 
 #### The code took 3.239 seconds to compute the median of means on 10 Million floating numbers between 0 and 1 Million ####
------------------
-
-
+----------------
+[Try it yourself](https://colab.research.google.com/drive/1dUI23QSuPZaa7IcW_n2CK-0M_qE0HxKi?usp=sharing)
+ 
