@@ -22,7 +22,7 @@ Using NumPy we manage to create high-performance function using the MoM estimato
 
 ![image](https://user-images.githubusercontent.com/96091453/169602676-4c61aec6-630a-453b-a3ec-bc85093d2d36.png)
 
--------------------
+
 ## Why NumPy is fast? ##
 1. **Parallel:** it divides the array into parts and computes all parts in parallel. 
 2. **Same data types:** you have to tell NumPy upfront what data type is your array, it is more restrictive but this will be much more optimized on operating on these data types.
