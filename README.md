@@ -23,6 +23,11 @@ Using NumPy we manage to create high-performance function using the MoM estimato
 ![image](https://user-images.githubusercontent.com/96091453/169602676-4c61aec6-630a-453b-a3ec-bc85093d2d36.png)
 
 
+We can see the importance of using the MoM estimator when we have a closer look over product 3; the mean is 10.15 while the MoM is 3, this is a huge difference, if we consider it from a pricing perspective, this happened because there is an outlier
+![image](https://user-images.githubusercontent.com/96091453/170360458-6f3e848a-bd83-4b10-ba67-fd5ce182751f.png)
+
+-------------------
+
 ## Why NumPy is fast? ##
 1. **Parallel:** it divides the array into parts and computes all parts in parallel. 
 2. **Same data types:** you have to tell NumPy upfront what data type is your array, it is more restrictive but this will be much more optimized on operating on these data types.
