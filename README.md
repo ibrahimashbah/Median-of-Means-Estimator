@@ -1,11 +1,8 @@
 # Median of Means Estimator
 
 
-<p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/96091453/169597145-2a7c9d7c-0fa6-4b7d-969c-e39dc7467f7c.png">
-</p>
 
-Take home project from buynomics, the task is to estimate the average price per product in the given dataset using the Median of Means estimator (MoM).
+A project to estimate the average price per product of a given dataset using the Median of Means estimator (MoM).
 
 ---------------
 Why do we need the median of means estimator? 
